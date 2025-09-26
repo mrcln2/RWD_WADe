@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asimovian&family=Bebas+Neue&family=Bungee&family=Karla:ital,wght@0,200..800;1,200..800&family=Lobster&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <nav class="top">
+      <div>
+        <img src="lv1.png" width="40px" height="40px">
+      </div>
+
+      <div>
+        <img src="globe.png" width="40px" height="40px">
+      </div>
+    </nav>
+
+    <div class="container">
+      <div id="registration-form">
+        
+        <div class="img"><img src="lv1.png" height="120px" width="120px" style="align-items: center; padding: auto;margin: auto;"></div>
+
+
+        <br>
+        <form action="./submitted.html" method="post">
+          <label for="name">Full Name:</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Lname, Fname, M.I."
+            required
+          />
+            <br>
+            <br>
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@example.com"
+            required
+          />
+            <br>
+            <br>
+          <p style="color: darkslategray;"><b>Year Level:</b></p>
+          <br>
+          <input
+            type="radio"
+            name="year"
+            id="first"
+            value="1st Year"
+            required
+          />
+          <label for="first">1st Year</label>
+          <br />
+          <input type="radio" name="year" id="second" value="2nd Year" />
+          <label for="second">2nd Year</label>
+          <br />
+          <input type="radio" name="year" id="third" value="3rd Year" />
+          <label for="third">3rd Year</label>
+          <br />
+          <input type="radio" name="year" id="fourth" value="4th Year" />
+          <label for="fourth">4th Year</label>
+          <br />
+            <br>
+            
+
+          <div class="pro"><a  href="main.html" style="text-align: center;">Proceed</a></div>
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>
